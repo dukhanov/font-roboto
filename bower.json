@@ -1,6 +1,6 @@
 {
   "name": "font-roboto",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Version of font-roboto to use in offline projects",
   "authors": [
     "Maxim Dukhanov"
@@ -11,7 +11,10 @@
     "roboto"    
   ],
   "main": "roboto.html",
-  "ignore": {},
+  "ignore": [
+    "node_modules",
+    "bower_components"    
+  ],
   "private": false,
   "repository": {
     "type": "git",
